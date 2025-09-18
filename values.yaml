@@ -1,0 +1,9 @@
+fabric_id: fabric
+fabric_environment: it
+arcController:
+  replicaCount: 2    
+  scaleSet:
+    minRunners: 1
+    maxRunners: 3
+pdb:
+  enabled: false
