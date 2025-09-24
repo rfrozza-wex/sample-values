@@ -9,6 +9,6 @@ pdb:
   enabled: false
 buildkitDeploy:
   enabled: true
-  tlsEnabled: false
+  tlsEnabled: true
 dockerDind:
   enabled: true
