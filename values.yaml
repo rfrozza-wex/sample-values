@@ -1,9 +1,14 @@
 fabric_id: fabric
 fabric_environment: it
 arcController:
-  replicaCount: 2    
+  replicaCount: 1
 scaleSet:
   minRunners: 1
   maxRunners: 3
 pdb:
-  enabled: true
+  enabled: false
+buildkitDeploy:
+  enabled: false
+  tlsEnabled: false
+dockerDind:
+  enabled: false
