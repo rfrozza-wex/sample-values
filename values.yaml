@@ -11,4 +11,4 @@ buildkitDeploy:
   enabled: true
   tlsEnabled: false
 dockerDind:
-  enabled: false
+  enabled: true
