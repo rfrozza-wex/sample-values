@@ -12,3 +12,4 @@ buildkitDeploy:
   tlsEnabled: false
 dockerDind:
   enabled: true
+  rootless: true
