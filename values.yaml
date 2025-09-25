@@ -8,7 +8,7 @@ scaleSet:
 pdb:
   enabled: false
 buildkitDeploy:
-  enabled: true
-  tlsEnabled: true
+  enabled: false
+  tlsEnabled: false
 dockerDind:
   enabled: true
